@@ -1,0 +1,117 @@
+Fossilized Dagger
+- Harms Skeleton mob types more than others
+- Doubles as bonemeal with a cooldown
+- Can tame wolves
+
+Breezer
+- Speed buff applied to player when hitting a mob 
+- Right click when looking down at the ground sends the player up a few blocks (but no fall damage)
+
+Fluorescent Blade
+- Shoots a little energetic core with a cooldown [CUSTOM PROJECTILE: Zapping Beam]
+- 1/4 chance of setting target on fire 
+
+Cinder Blade
+- Doubles as Flint and Steel
+- 1/3 chance of setting target on fire
+- Lava particles spawn off/around player when weapon is in hand
+
+UV Triblade
+- Does double damage to charged creepers
+- Particle of bright UV bouncing off upon hitting
+- 1/5 chance of setting target on fire 
+
+Acid Edge
+- Minor poison to enemies
+- If it is raining, the player can shoot an acid particle at enemies [CUSTOM PROJECTILE: Acid Piece]
+
+Molten Sword
+- Holding the weapon makes players emit fire or lava particles
+- Fire resistance to the holder
+- Shoots fire charge with cooldown
+
+Gilded Fang
+- Inflicts poison on animals
+- Doesn't hurt undead mobs
+
+Forged Blade
+- Shoots a sling of molten bits that turns into a lava block when it hits something
+- 1/3 chance of setting target on fire
+
+Violet Electrocutor
+- Shoots a violet beam with a cooldown
+
+Oozing Blade
+- Rare chance of placing lava where the target is
+- Click the ground and hold to draw a trail of fire? Or it just doubles as flint and steel
+
+Double Flame Sword
+- Holding the weapon makes players emit fire or lava particles
+- Gives fire resistance to player when holding
+- Shoots 2 fire charge with cooldown
+- Sets all mobs within a vicinity on fire
+- Does not do damage to blazes, maybe some other fire-themed mobs if applicable
+
+Flame Zapper
+- Low damage, only a few hp
+- Sets target on fire
+- Ignites charged creepers
+
+Midnight Enderblade
+- More damage done to Endermen and ender dragon
+- Player can throws enderpearl with cooldown
+
+Glass Sword
+- Maybe allows players to break glass and have it drop
+- Not a set durability, rather a 1/10 chance of it completely breaking
+
+Seaglass Blade
+- Does extra damage to guardians and elder guardians
+- Small chance of inflicting mining fatigue on target
+
+Halo Sword
+- Gives players the ability to fly when in hand
+- Can strike lightning down at target
+
+Bloodrose Blade
+- Does double the damage to undead mobs
+- Emits a red particle when hitting target
+- Regeneration to player when player holds it
+
+Cyclone Blade
+- At the expense of a lot of durability, player can turn weather into a thunderstorm
+- Shoots a green particle with a cyclone wisp around it that causes a mini explosion when hitting something (shooting has a cooldown so it can't be spammed) [ART]
+
+Corrosive Saber
+- Inflicts minor poison to targets
+- Small chance of killing/destroying plants in a distance and turning grass into dirt (upon use, or when would this happen?)
+
+Sword of Shards
+- Shoots a shard particle that inflicts damage (on cooldown) [ART]
+
+Charged Greatblade
+- Player can shoots a blue charge particle
+- Small chance of setting surrounding targets on fire
+- Makes creepers charged
+
+Purple Axeblade
+- Works as an axe and a blade
+
+Mauve Taupe Sword
+- chance of inflicting slowness on targets
+- Shoots a shard particle that inflicts damage (on cooldown) (same as sword of shards) [ART]
+
+Galactic Triblade
+- Can throw it like a weapon
+- Strike lightning down on target
+- Every third attack does double damage
+
+Valentine Sword
+- Harms monsters like a normal sword
+- Doesn't do damage to animals
+- Right click pets to heal them
+- Target emits hearts when the weapon hits them
+
+Ionized Whipblade
+- Right click to instantly go forward 5 blocks. This leaves behind a temporary beam/trail of green, which harms anything that touches it
+- Killing a mob with this weapon causes an extra XP level

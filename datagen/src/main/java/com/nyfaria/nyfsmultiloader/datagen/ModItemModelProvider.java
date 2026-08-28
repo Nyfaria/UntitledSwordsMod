@@ -1,6 +1,7 @@
 package com.nyfaria.nyfsmultiloader.datagen;
 
 import com.nyfaria.nyfsmultiloader.Constants;
+import com.nyfaria.nyfsmultiloader.init.SwordInit;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -17,17 +18,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        // Stream.of()
-        //         .map(Supplier::get)
-        //         .forEach(this::simpleHandHeldModel);
-
-//        Stream.of()
-//                .map(Supplier::get)
-//                .forEach(this::simpleGeneratedModel);
-
-        // Stream.of()
-        //         .map(Supplier::get)
-        //         .forEach(this::simpleBlockItemModel);
+        SwordInit.SWORDS.forEach(sword -> simpleHandHeldModel(sword.get()));
     }
 
     protected ItemModelBuilder simpleBlockItemModel(Block block) {

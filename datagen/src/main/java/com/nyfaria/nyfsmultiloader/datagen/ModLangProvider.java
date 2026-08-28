@@ -22,7 +22,9 @@ import java.util.stream.Collectors;
 public class ModLangProvider extends LanguageProvider {
     protected static final Map<String, String> REPLACE_LIST = ImmutableMap.of(
             "tnt", "TNT",
-            "sus", ""
+            "sus", "",
+            "uv", "UV",
+            "of", "of"
     );
 
     public ModLangProvider(PackOutput gen) {

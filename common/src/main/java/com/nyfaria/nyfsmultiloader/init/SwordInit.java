@@ -155,7 +155,7 @@ public class SwordInit {
             new EffectOnHitAbility(MobEffects.DIG_SLOWDOWN, 0.25F, 100, 0, "Chance to inflict mining fatigue"));
 
     public static final RegistryObject<Item, AbilitySwordItem> SWORD_OF_SHARDS = registerSword("sword_of_shards", Tiers.IRON, 3, -2.4F,
-            new ShootProjectileAbility(25, false, "Use to loose a damaging shard",
+            new ShootProjectileAbility(25, false, "Right-click to shoot a loose shard",
                     p -> p.damage(5.0F).impactParticle(ParticleTypes.CRIT)));
 
     public static final RegistryObject<Item, AbilitySwordItem> VALENTINE_SWORD = registerSword("valentine_sword", Tiers.IRON, 3, -2.4F,

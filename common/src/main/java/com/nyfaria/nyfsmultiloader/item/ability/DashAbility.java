@@ -57,6 +57,6 @@ public class DashAbility implements SwordAbility {
 
     @Override
     public void appendHoverText(List<Component> tooltip) {
-        tooltip.add(Component.literal("Use to dash forward, cutting through anything in the way").withStyle(ChatFormatting.GREEN));
+        tooltip.add(Component.literal("Right-click to dash forward").withStyle(ChatFormatting.AQUA));
     }
 }

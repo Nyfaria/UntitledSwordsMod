@@ -28,6 +28,6 @@ public class GlassBreakDropAbility implements SwordAbility {
 
     @Override
     public void appendHoverText(List<Component> tooltip) {
-        tooltip.add(Component.literal("Harvests glass intact").withStyle(ChatFormatting.AQUA));
+        tooltip.add(Component.literal("Keeps glass intact when breaking it").withStyle(ChatFormatting.AQUA));
     }
 }

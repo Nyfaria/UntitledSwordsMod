@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "combat_oddities:item/fluorescent_zapper"
+  }
+}

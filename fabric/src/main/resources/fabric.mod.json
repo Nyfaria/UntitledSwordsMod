@@ -16,10 +16,10 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.nyfaria.nyfsmultiloader.ExampleMod"
+            "com.nyfaria.combat_oddities.ExampleMod"
         ],
         "client": [
-            "com.nyfaria.nyfsmultiloader.client.NyfsClient"
+            "com.nyfaria.combat_oddities.client.NyfsClient"
         ]
     },
     "mixins": [

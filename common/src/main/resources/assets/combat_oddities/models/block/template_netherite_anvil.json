@@ -1,0 +1,653 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "#anvil"
+  },
+  "elements": [
+    {
+      "name": "Anvil base",
+      "from": [
+        1.7,
+        -0.3,
+        1.7
+      ],
+      "to": [
+        14.3,
+        4.3,
+        14.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            14.25,
+            13,
+            14.75
+          ],
+          "texture": "#anvil"
+        },
+        "east": {
+          "uv": [
+            10,
+            14.25,
+            11.5,
+            14.75
+          ],
+          "texture": "#anvil"
+        },
+        "south": {
+          "uv": [
+            14.5,
+            14.25,
+            16,
+            14.75
+          ],
+          "texture": "#anvil"
+        },
+        "west": {
+          "uv": [
+            13,
+            14.25,
+            14.5,
+            14.75
+          ],
+          "texture": "#anvil"
+        },
+        "up": {
+          "uv": [
+            13,
+            14.25,
+            11.5,
+            12.75
+          ],
+          "texture": "#anvil"
+        },
+        "down": {
+          "uv": [
+            14.5,
+            12.75,
+            13,
+            14.25
+          ],
+          "texture": "#anvil",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "Lower narrow portion",
+      "from": [
+        4,
+        4,
+        3
+      ],
+      "to": [
+        12,
+        5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.25,
+            6.375,
+            8.25,
+            6.5
+          ],
+          "texture": "#anvil"
+        },
+        "east": {
+          "uv": [
+            6,
+            6.375,
+            7.25,
+            6.5
+          ],
+          "texture": "#anvil"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            6.375,
+            10.5,
+            6.5
+          ],
+          "texture": "#anvil"
+        },
+        "west": {
+          "uv": [
+            8.25,
+            6.375,
+            9.5,
+            6.5
+          ],
+          "texture": "#anvil"
+        },
+        "up": {
+          "uv": [
+            8.25,
+            6.375,
+            7.25,
+            5.125
+          ],
+          "texture": "#anvil"
+        }
+      }
+    },
+    {
+      "name": "Wider section beneath top portion",
+      "from": [
+        6,
+        5,
+        4
+      ],
+      "to": [
+        10,
+        10,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.5,
+            1,
+            8,
+            1.625
+          ],
+          "texture": "#anvil"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            1,
+            7.5,
+            1.625
+          ],
+          "texture": "#anvil"
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            9.5,
+            1.625
+          ],
+          "texture": "#anvil"
+        },
+        "west": {
+          "uv": [
+            8,
+            1,
+            9,
+            1.625
+          ],
+          "texture": "#anvil"
+        }
+      }
+    },
+    {
+      "name": "Anvil top",
+      "from": [
+        3,
+        10,
+        0
+      ],
+      "to": [
+        13,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            2,
+            3.25,
+            2.75
+          ],
+          "texture": "#anvil"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            2,
+            2.75
+          ],
+          "texture": "#anvil"
+        },
+        "south": {
+          "uv": [
+            5.25,
+            2,
+            6.5,
+            2.75
+          ],
+          "texture": "#anvil"
+        },
+        "west": {
+          "uv": [
+            3.25,
+            2,
+            5.25,
+            2.75
+          ],
+          "texture": "#anvil"
+        },
+        "up": {
+          "uv": [
+            3.25,
+            2,
+            2,
+            0
+          ],
+          "texture": "#anvil"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            0,
+            3.25,
+            2
+          ],
+          "texture": "#anvil"
+        }
+      }
+    },
+    {
+      "name": "Anvil top",
+      "from": [
+        2.7,
+        12.7,
+        -0.3
+      ],
+      "to": [
+        13.3,
+        16.3,
+        16.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            4.75,
+            3.25,
+            5.125
+          ],
+          "texture": "#anvil"
+        },
+        "east": {
+          "uv": [
+            0,
+            4.75,
+            2,
+            5.125
+          ],
+          "texture": "#anvil"
+        },
+        "south": {
+          "uv": [
+            5.25,
+            4.75,
+            6.5,
+            5.125
+          ],
+          "texture": "#anvil"
+        },
+        "west": {
+          "uv": [
+            3.25,
+            4.75,
+            5.25,
+            5.125
+          ],
+          "texture": "#anvil"
+        },
+        "up": {
+          "uv": [
+            3.25,
+            4.75,
+            2,
+            2.75
+          ],
+          "texture": "#anvil"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            2.75,
+            3.25,
+            4.75
+          ],
+          "texture": "#anvil"
+        }
+      }
+    },
+    {
+      "name": "Wider section beneath top portion",
+      "from": [
+        5.7,
+        4.7,
+        3.7
+      ],
+      "to": [
+        10.3,
+        10.3,
+        12.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            10.375,
+            1.5,
+            11
+          ],
+          "texture": "#anvil"
+        },
+        "east": {
+          "uv": [
+            0,
+            10.375,
+            1,
+            11
+          ],
+          "texture": "#anvil"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            10.375,
+            3,
+            11
+          ],
+          "texture": "#anvil"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            10.375,
+            2.5,
+            11
+          ],
+          "texture": "#anvil"
+        }
+      }
+    },
+    {
+      "name": "Anvil base",
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        4,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.5,
+            6.625,
+            3,
+            7.125
+          ],
+          "texture": "#anvil"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.625,
+            1.5,
+            7.125
+          ],
+          "texture": "#anvil"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            6.625,
+            6,
+            7.125
+          ],
+          "texture": "#anvil"
+        },
+        "west": {
+          "uv": [
+            3,
+            6.625,
+            4.5,
+            7.125
+          ],
+          "texture": "#anvil"
+        },
+        "up": {
+          "uv": [
+            3,
+            6.625,
+            1.5,
+            5.125
+          ],
+          "texture": "#anvil"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            5.125,
+            3,
+            6.625
+          ],
+          "texture": "#anvil",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "Anvil bottom inverted",
+      "from": [
+        13.3,
+        16.3,
+        16.3
+      ],
+      "to": [
+        2.7,
+        12.7,
+        -0.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.25,
+            5.125,
+            6.5,
+            4.75
+          ],
+          "texture": "#anvil"
+        },
+        "east": {
+          "uv": [
+            3.25,
+            5.125,
+            5.25,
+            4.75
+          ],
+          "texture": "#anvil"
+        },
+        "south": {
+          "uv": [
+            2,
+            5.125,
+            3.25,
+            4.75
+          ],
+          "texture": "#anvil"
+        },
+        "west": {
+          "uv": [
+            0,
+            5.125,
+            2,
+            4.75
+          ],
+          "texture": "#anvil"
+        },
+        "up": {
+          "uv": [
+            3.25,
+            2.75,
+            4.5,
+            4.75
+          ],
+          "texture": "#anvil"
+        },
+        "down": {
+          "uv": [
+            2,
+            4.75,
+            3.25,
+            2.75
+          ],
+          "texture": "#anvil"
+        }
+      }
+    },
+    {
+      "name": "Wider section beneath bottom portion inverted",
+      "from": [
+        10.3,
+        10.3,
+        12.3
+      ],
+      "to": [
+        5.7,
+        4.7,
+        3.7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            11,
+            3,
+            10.375
+          ],
+          "texture": "#anvil"
+        },
+        "east": {
+          "uv": [
+            1.5,
+            11,
+            2.5,
+            10.375
+          ],
+          "texture": "#anvil"
+        },
+        "south": {
+          "uv": [
+            1,
+            11,
+            1.5,
+            10.375
+          ],
+          "texture": "#anvil"
+        },
+        "west": {
+          "uv": [
+            0,
+            11,
+            1,
+            10.375
+          ],
+          "texture": "#anvil"
+        }
+      }
+    },
+    {
+      "name": "Anvil base inverted",
+      "from": [
+        14.3,
+        4.3,
+        14.3
+      ],
+      "to": [
+        1.7,
+        -0.3,
+        1.7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.5,
+            14.75,
+            16,
+            14.25
+          ],
+          "texture": "#anvil"
+        },
+        "east": {
+          "uv": [
+            13,
+            14.75,
+            14.5,
+            14.25
+          ],
+          "texture": "#anvil"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            14.75,
+            13,
+            14.25
+          ],
+          "texture": "#anvil"
+        },
+        "west": {
+          "uv": [
+            10,
+            14.75,
+            11.5,
+            14.25
+          ],
+          "texture": "#anvil"
+        },
+        "up": {
+          "uv": [
+            13,
+            12.75,
+            14.5,
+            14.25
+          ],
+          "texture": "#anvil",
+          "cullface": "down"
+        },
+        "down": {
+          "uv": [
+            11.5,
+            14.25,
+            13,
+            12.75
+          ],
+          "texture": "#anvil"
+        }
+      }
+    }
+  ],
+  "display": {
+    "fixed": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

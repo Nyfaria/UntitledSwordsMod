@@ -6,6 +6,7 @@ import com.nyfaria.combat_oddities.init.ItemInit;
 import com.nyfaria.combat_oddities.init.ProjectileInit;
 import com.nyfaria.combat_oddities.init.SwordInit;
 import com.nyfaria.combat_oddities.init.TagInit;
+import com.nyfaria.combat_oddities.init.VillagerInit;
 import com.nyfaria.combat_oddities.platform.Services;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Items;
@@ -16,6 +17,7 @@ public class CommonClass {
         ItemInit.loadClass();
         SwordInit.loadClass();
         BlockInit.loadClass();
+        VillagerInit.loadClass();
         EntityInit.loadClass();
         ProjectileInit.loadClass();
         TagInit.loadClass();

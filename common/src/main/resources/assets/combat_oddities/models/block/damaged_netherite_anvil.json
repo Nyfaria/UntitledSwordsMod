@@ -1,0 +1,6 @@
+{
+  "parent": "combat_oddities:block/template_netherite_anvil",
+  "textures": {
+    "anvil": "combat_oddities:block/damaged_netherite_anvil"
+  }
+}

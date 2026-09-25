@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:netherite_block"
+    },
+    "i": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "BBB",
+    " i ",
+    "iii"
+  ],
+  "result": {
+    "count": 1,
+    "id": "combat_oddities:netherite_anvil"
+  }
+}

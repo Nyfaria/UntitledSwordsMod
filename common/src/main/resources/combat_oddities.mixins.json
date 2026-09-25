@@ -5,7 +5,9 @@
   "refmap": "${mod_id}.refmap.json",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "MixinPlayer"
+    "MixinAnvilBlock",
+    "MixinPlayer",
+    "PoiTypesInvoker"
   ],
   "client": [
     "MixinMinecraft"
@@ -15,4 +17,3 @@
     "defaultRequire": 1
   }
 }
-

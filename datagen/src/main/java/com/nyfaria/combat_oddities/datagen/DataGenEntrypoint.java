@@ -23,6 +23,7 @@ public class DataGenEntrypoint {
         generator.addProvider(includeServer, new ModSoundProvider(packOutput, existingFileHelper));
         generator.addProvider(includeServer, new ModTagProvider.ModBlockTags(packOutput, event.getLookupProvider(), existingFileHelper));
         generator.addProvider(includeServer, new ModTagProvider.ModItemTags(packOutput, event.getLookupProvider(), existingFileHelper));
+        generator.addProvider(includeServer, new ModTagProvider.ModPoiTypeTags(packOutput, event.getLookupProvider(), existingFileHelper));
         generator.addProvider(includeClient, new ModItemModelProvider(packOutput, existingFileHelper));
         generator.addProvider(includeClient, new ModBlockStateProvider(packOutput, existingFileHelper));
         generator.addProvider(includeClient, new ModLangProvider(packOutput));

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "combat_oddities:block/damaged_netherite_anvil",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "combat_oddities:block/damaged_netherite_anvil",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "combat_oddities:block/damaged_netherite_anvil"
+    },
+    "facing=west": {
+      "model": "combat_oddities:block/damaged_netherite_anvil",
+      "y": 90
+    }
+  }
+}

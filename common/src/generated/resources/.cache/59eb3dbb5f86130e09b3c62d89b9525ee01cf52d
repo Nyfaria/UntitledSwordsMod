@@ -1,1 +1,4 @@
-// 1.21.1	2026-09-13T15:51:54.991421	Loot Tables
+// 1.21.1	2026-09-25T16:02:59.9405685	Loot Tables
+3dd8b5f927d52b110545e092ef35f94f77371740 data/combat_oddities/loot_table/blocks/chipped_netherite_anvil.json
+b13436f4dbe1eaec4663292eaa6c3d973e7bd4e2 data/combat_oddities/loot_table/blocks/damaged_netherite_anvil.json
+1241713c34ec5ec87e70a7a0bb9e29cbcc55e30e data/combat_oddities/loot_table/blocks/netherite_anvil.json

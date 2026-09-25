@@ -16,7 +16,7 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.nyfaria.combat_oddities.ExampleMod"
+          "com.nyfaria.combat_oddities.CombatOddities"
         ],
         "client": [
             "com.nyfaria.combat_oddities.client.NyfsClient"

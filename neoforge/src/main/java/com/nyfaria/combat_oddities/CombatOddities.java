@@ -5,9 +5,9 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 
 @Mod(Constants.MODID)
-public class ExampleMod {
+public class CombatOddities {
 
-    public ExampleMod(IEventBus eventBus) {
+    public CombatOddities(IEventBus eventBus) {
         Constants.LOG.info("Hello NeoForge world!");
         CommonClass.init();
     }

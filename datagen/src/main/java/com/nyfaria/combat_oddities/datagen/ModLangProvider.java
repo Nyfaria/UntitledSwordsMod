@@ -37,6 +37,7 @@ public class ModLangProvider extends LanguageProvider {
         EntityInit.ENTITIES.getEntries().forEach(this::entityLang);
         BlockInit.BLOCKS.getEntries().forEach(this::blockLang);
         add("itemGroup." + Constants.MODID + ".tab", Constants.MOD_NAME);
+        add("entity.minecraft.villager." + Constants.MODID + ".master_swordsmith", "Master Swordsmith");
     }
 
     protected void itemLang(RegistryObject<Item,?> entry) {

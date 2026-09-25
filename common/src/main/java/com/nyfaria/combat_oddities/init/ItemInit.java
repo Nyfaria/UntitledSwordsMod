@@ -15,11 +15,9 @@ public class ItemInit {
 
     public static final RegistrationProvider<CreativeModeTab> CREATIVE_MODE_TABS = RegistrationProvider.get(Registries.CREATIVE_MODE_TAB, Constants.MODID);
     public static final RegistryObject<CreativeModeTab, CreativeModeTab> TAB = CREATIVE_MODE_TABS.register(Constants.MODID, () -> CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0)
-            .icon(() -> new ItemStack(Blocks.DIRT))
+            .icon(() -> new ItemStack(BlockInit.NETHERITE_ANVIL.get()))
             .displayItems(
-                    (itemDisplayParameters, output) -> {
-                        ITEMS.getEntries().forEach(item -> output.accept(new ItemStack(item.get())));
-                    }).title(Component.translatable("itemGroup." + Constants.MODID + ".tab"))
+                    (itemDisplayParameters, output) -> ITEMS.getEntries().forEach(item -> output.accept(new ItemStack(item.get())))).title(Component.translatable("itemGroup." + Constants.MODID + ".tab"))
             .build());
 
 

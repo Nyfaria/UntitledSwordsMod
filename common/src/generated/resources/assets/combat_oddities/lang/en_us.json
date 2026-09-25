@@ -1,5 +1,9 @@
 {
+  "block.combat_oddities.chipped_netherite_anvil": "Chipped Netherite Anvil",
+  "block.combat_oddities.damaged_netherite_anvil": "Damaged Netherite Anvil",
+  "block.combat_oddities.netherite_anvil": "Netherite Anvil",
   "entity.combat_oddities.energy_projectile": "Energy Projectile",
+  "entity.minecraft.villager.combat_oddities.master_swordsmith": "Master Swordsmith",
   "item.combat_oddities.acid_edge": "Acid Edge",
   "item.combat_oddities.bloodrose_blade": "Bloodrose Blade",
   "item.combat_oddities.charged_greatblade": "Charged Greatblade",

@@ -115,5 +115,5 @@ Deals bonus damage to skeletons<br>
 Doubles as bone meal<br>
 Interact with wolves to tame them<br>
 
-AJ's Discord: https://discord.gg/nwDQcxpJG8
+AJ's Discord: https://discord.gg/nwDQcxpJG8<br>
 CurseForge: https://www.curseforge.com/minecraft/mc-mods/combat-oddities/preview
